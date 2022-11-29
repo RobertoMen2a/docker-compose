@@ -1,0 +1,9 @@
+#Docker File  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
+#https://github.com/RobertoMen2a/proyecto-final-django
+FROM python:3.8
+ENV PYTHONUNBUFFERED 1
+RUN mkdir /code
+WORKDIR /code
+COPY requirements.txt /code/
+RUN python -m pip install -r requirements.txt
+COPY . /code/
