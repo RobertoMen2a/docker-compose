@@ -1,5 +1,5 @@
 # docker-compose
-Roberto C. Mendozas
+Roberto C. Mendoza
 
 Modulo 8
 Devops
